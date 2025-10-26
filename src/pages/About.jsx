@@ -55,15 +55,15 @@ export default function About() {
           <ul style={{ listStyle: 'none', paddingLeft: 0, display: 'grid', gap: 8 }}>
             <li>
               <span className="material-symbols-outlined" style={{ verticalAlign: 'middle', marginRight: 8 }}>code</span>
-              <a href={CONTACT.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/nidhii25" target="_blank" rel="noopener noreferrer">GitHub</a>
             </li>
             <li>
               <span className="material-symbols-outlined" style={{ verticalAlign: 'middle', marginRight: 8 }}>work</span>
-              <a href={CONTACT.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href= "https://www.linkedin.com/in/nidhiagrawal25/"target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </li>
             <li>
               <span className="material-symbols-outlined" style={{ verticalAlign: 'middle', marginRight: 8 }}>mail</span>
-              <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
+              <a href="devnidhi15@gmail.com">{CONTACT.email}</a>
             </li>
           </ul>
         </div>
