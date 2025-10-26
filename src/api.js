@@ -1,5 +1,5 @@
 // Minimal API client for the FastAPI backend
-const BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
+const BASE = "https://movie-finder-backend-hoin.onrender.com"
 
 async function fetchJson(url, options) {
   const res = await fetch(url, options)
